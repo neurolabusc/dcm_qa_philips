@@ -1,0 +1,9 @@
+Vanderbilt University Institute of Imaging Science 3T Philips Achieva dStream enhanced DICOM DTI dataset courtesy of Bennett Landman.
+ (0002,0013) SH [Philips MR 53.0] #ImplementationVersionName
+ (0008,1090) LO [Achieva dStream] #ManufacturerModelName
+
+This sequence uses public tags to define diffusion gradients:
+ (0018,9087) FD 2000 #DiffusionBValue
+ (0018,9089) FD 0.25\-0.92\-0.30 #DiffusionGradientOrientation
+
+Note this series includes a derived isotropic scan. It is typically desirable to remove this image as it will disrupt processing (and you will be able to generate better derived images after processing).

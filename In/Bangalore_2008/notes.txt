@@ -1,0 +1,16 @@
+Data provided by Prof G Venkatasubramanian and Dr. B Holla,, Department of Psychiatry, NIMHANS, Bengaluru (www.transpsychlab.org/venkatasubramanian.html)
+ (0018,1020) LO [2.5.3\2.5.3.3\PMS1.1 MIMIT EVIIMDictionary] #SoftwareVersions
+ (0018,1030) LO [DT_HIGH_32DIR SENSE] #ProtocolName
+ (0008,0070) LO [Philips Medical Systems] #Manufacturer
+ (0008,0080) LO [NIMHANS,BANGALORE] #InstitutionName
+ (0040,0241) AE [ACHIEVA] #PerformedStationAETitle
+
+This sequence uses private tags (github.com/rordenlab/dcm2niix/tree/master/Philips) to define diffusion gradients:
+ (2001,1003) FL 1000
+ (2005,10b0) FL 1.0
+ (2005,10b1) FL 1.0
+ (2005,10b2) FL 0.0
+
+Note this series includes a derived isotropic scan. It is typically desirable to remove this image as it will disrupt processing (and you will be able to generate better derived images after processing).
+
+

@@ -1,0 +1,12 @@
+This Philips DWI dataset comes from the Rosetta Bit project (https://www.nitrc.org/projects/rosetta). Note that enhanced DICOM images can be corrupted by non-enhanced aware tools that attempt to modify the files (anonymization, using implicit VRs, etc.). This image was handled by dcm4che and seems intact.
+
+
+ (0002,0013) SH [dcm4che-2.0] #ImplementationVersionName
+ (0018,1020) LO [3.2.2\3.2.2.0]  #SoftwareVersions
+ (0008,1090) LO [Achieva] #ManufacturerModelName
+
+
+This sequence uses public tags to define diffusion gradients:
+ (0018,9089) FD -1.0\-0.0\-0.0 #DiffusionGradientOrientation
+ (0018,9087) FD 1000 #DiffusionBValue
+
