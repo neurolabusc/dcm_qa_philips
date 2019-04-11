@@ -30,6 +30,7 @@
 	"SpacingBetweenSlices": 3,
 	"SAR": 0.0572043,
 	"EchoTime": 0.060728,
+	"RepetitionTime": 4.57102,
 	"FlipAngle": 90,
 	"CoilString": "MULTI_COIL",
 	"PartialFourier": 0.397436,
@@ -49,5 +50,5 @@
 		0.176577	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20190222  GCC8.2.0"
+	"ConversionSoftwareVersion": "v1.0.20190308  GCC8.2.0"
 }

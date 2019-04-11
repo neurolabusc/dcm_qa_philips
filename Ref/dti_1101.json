@@ -27,6 +27,7 @@
 	"SliceThickness": 2.5,
 	"SpacingBetweenSlices": 2.499,
 	"EchoTime": 0.052,
+	"RepetitionTime": 7.75,
 	"FlipAngle": 90,
 	"CoilString": "Dual_coil",
 	"PartialFourier": 0.489583,
@@ -46,5 +47,5 @@
 		-0.104085	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20190222  GCC8.2.0"
+	"ConversionSoftwareVersion": "v1.0.20190308  GCC8.2.0"
 }

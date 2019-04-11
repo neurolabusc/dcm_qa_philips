@@ -4,7 +4,7 @@ dcm_qa_philips is a simple DICOM to NIfTI validator script and dataset. This rep
 
 ## License
 
-Data origin is described in the `notes.txt` file for each series. The the code and images are covered by the [2-clause BSD license](https://opensource.org/licenses/BSD-2-Clause).
+Data origin is described in the `notes.txt` file for each series. The code and images are covered by the [2-clause BSD license](https://opensource.org/licenses/BSD-2-Clause).
 
 ## Versions
 

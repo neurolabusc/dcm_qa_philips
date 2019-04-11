@@ -30,6 +30,7 @@
 	"SpacingBetweenSlices": 2.5,
 	"NumberOfAverages": 2,
 	"EchoTime": 0.0584062,
+	"RepetitionTime": 8.80876,
 	"FlipAngle": 90,
 	"CoilString": "SENSE-Head-8",
 	"PartialFourier": 0.427273,
@@ -49,5 +50,5 @@
 		2.55773e-19	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20190222  GCC8.2.0"
+	"ConversionSoftwareVersion": "v1.0.20190308  GCC8.2.0"
 }

@@ -12,7 +12,7 @@ exists() {
 # we assume it is in the users path
 # however, this could be set explicitly, e.g.
 #  exenam="/Users/rorden/Documents/cocoa/dcm2niix/console/dcm2niix" batch.sh
-exenam=${examnam:-dcm2niix}
+exenam=${exenam:-dcm2niix}
 
 #basedir is folder with "Ref" and "In" subfolders.
 # we assume it is the same same folder as the script

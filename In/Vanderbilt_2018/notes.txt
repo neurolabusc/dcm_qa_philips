@@ -1,4 +1,4 @@
-Vanderbilt University Institute of Imaging Science 3T Philips Achieva dStream enhanced DICOM DTI dataset courtesy of Bennett Landman.
+Vanderbilt University Institute of Imaging Science 3T Philips Achieva dStream classic DICOM DTI dataset courtesy of Bennett Landman.
  (0002,0013) SH [Philips MR 53.0] #ImplementationVersionName
  (0008,1090) LO [Achieva dStream] #ManufacturerModelName
 
