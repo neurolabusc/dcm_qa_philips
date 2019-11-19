@@ -1,0 +1,9 @@
+https://datapub.fz-juelich.de/studyforrest/philips_achieva_testfiles/conversion/DICOM/
+
+(0002,0013) SH [Philips MR 51.0]                        #  16, 1 ImplementationVersionName
+(0008,0020) DA [20140214]                               #   8, 1 StudyDate
+(0008,0070) LO [Philips Medical Systems]                #  24, 1 Manufacturer
+(0008,0080) LO [Leibniz Institut Magdeburg]             #  26, 1 InstitutionName
+(0008,0081) ST [Magdeburg]                              #  10, 1 InstitutionAddress
+(0008,1090) LO [Achieva dStream]                        #  16, 1 ManufacturerModelName
+(0018,0087) DS [3]                                      #   2, 1 MagneticFieldStrength

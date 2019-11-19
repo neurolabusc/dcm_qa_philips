@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# The "DV" version uses the '-p n' argument to report display values (not precise values)
+
 # Fail if anything not planed to go wrong, goes wrong
 set -eu
 
@@ -67,7 +69,7 @@ else
 fi
 
 # Convert images.
-cmd="$exenam $endian -i y -b y -z n -f %p_%s -o $outdir $indir"
+cmd="$exenam $endian -i y -p n -b y -z n -f %p_%s -o $outdir $indir"
 echo "Running command:"
 echo $cmd
 $cmd

@@ -17,7 +17,7 @@
 	"ProtocolName": "dti",
 	"ScanningSequence": "SE",
 	"SequenceVariant": "SK",
-	"ImageType": ["ORIGINAL", "PRIMARY", "M", "SE", "M", "SE"],
+	"ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE"],
 	"SeriesNumber": 1101,
 	"AcquisitionNumber": 11,
 	"PhilipsRescaleSlope": 3.09524,
@@ -47,5 +47,5 @@
 		-0.104085	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20190308  GCC8.2.0"
+	"ConversionSoftwareVersion": "v1.0.20191111"
 }

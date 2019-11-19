@@ -50,5 +50,5 @@
 		2.55773e-19	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20190308  GCC8.2.0"
+	"ConversionSoftwareVersion": "v1.0.20191111"
 }

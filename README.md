@@ -2,14 +2,38 @@
 
 dcm_qa_philips is a simple DICOM to NIfTI validator script and dataset. This repository is similar to [dcm_qa](https://github.com/neurolabusc/dcm_qa), but includes data from Philips MRI scanners.
 
+## Details
+
+For details see [GE](https://github.com/rordenlab/dcm2niix/tree/master/GE) page.
+
+* Bangalore_2008
+  * Achieva 
+  * SoftwareVersions: 2.5.3_2.5.3.3_PMS1.1_MIMIT_EVIIMDictionary
+  * Diffusion sequence
+
+* Magdeburg_2014
+  * Achieva
+  * SoftwareVersions: 51.0
+  * T2* functional sequence
+
+* Rosetta_2013
+  * Achieva 
+  * SoftwareVersions: 3.2.2\3.2.2.0
+  * Diffusion sequence
+  
+* Vanderbilt_2018
+  * Achieva 
+  * SoftwareVersions: 53.0
+  * Diffusion sequence
+
 ## License
 
 Data origin is described in the `notes.txt` file for each series. The code and images are covered by the [2-clause BSD license](https://opensource.org/licenses/BSD-2-Clause).
 
 ## Versions
 
-24-February-2019
- - Initial public release
+* 24-February-2019 Initial public release
+* 19-November-2019 Added functional sequence
 
 ## Running
 
