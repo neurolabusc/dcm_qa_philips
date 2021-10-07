@@ -31,16 +31,19 @@
 	"SAR": 0.0572043,
 	"EchoTime": 0.060728,
 	"RepetitionTime": 4.57102,
+	"MTState": false,
 	"FlipAngle": 90,
 	"CoilString": "MULTI COIL",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"EchoTrainLength": 31,
+	"PartialFourierDirection": "PHASE",
 	"PartialFourierEnabled": "YES",
 	"PhaseEncodingStepsNoPartialFourier": 78,
 	"AcquisitionMatrixPE": 78,
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2.5,
+	"ParallelAcquisitionTechnique": "SENSE",
 	"WaterFatShift": 7.95575,
 	"EstimatedEffectiveEchoSpacing": 0.000224585,
 	"EstimatedTotalReadoutTime": 0.0177422,
@@ -55,5 +58,5 @@
 		0.176577	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201030"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }

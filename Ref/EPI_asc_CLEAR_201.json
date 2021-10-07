@@ -30,6 +30,7 @@
 	"SAR": 0.22856,
 	"EchoTime": 0.030001,
 	"RepetitionTime": 2,
+	"MTState": false,
 	"FlipAngle": 90,
 	"CoilString": "MULTI COIL",
 	"PercentPhaseFOV": 100,
@@ -50,5 +51,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210308"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }

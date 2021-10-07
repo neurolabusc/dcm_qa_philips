@@ -31,16 +31,19 @@
 	"NumberOfAverages": 2,
 	"EchoTime": 0.0584062,
 	"RepetitionTime": 8.80876,
+	"MTState": false,
 	"FlipAngle": 90,
 	"CoilString": "SENSE-Head-8",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"EchoTrainLength": 47,
+	"PartialFourierDirection": "PHASE",
 	"PartialFourierEnabled": "YES",
 	"PhaseEncodingStepsNoPartialFourier": 110,
 	"AcquisitionMatrixPE": 110,
 	"ReconMatrixPE": 128,
 	"ParallelReductionFactorInPlane": 2.5,
+	"ParallelAcquisitionTechnique": "SENSE",
 	"WaterFatShift": 11.654,
 	"EstimatedEffectiveEchoSpacing": 0.000206812,
 	"EstimatedTotalReadoutTime": 0.0262651,
@@ -55,5 +58,5 @@
 		2.55773e-19	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201030"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }
