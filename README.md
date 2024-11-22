@@ -4,7 +4,7 @@ dcm_qa_philips is a simple DICOM to NIfTI validator script and dataset. This rep
 
 ## Details
 
-For details see [GE](https://github.com/rordenlab/dcm2niix/tree/master/GE) page.
+For details see the [Philips](https://github.com/rordenlab/dcm2niix/tree/master/Philips) page.
 
 * Bangalore_2008
   * Achieva 
