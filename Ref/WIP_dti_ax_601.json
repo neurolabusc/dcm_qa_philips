@@ -1,7 +1,7 @@
 {
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
-	"ImagingFrequency": 127.764,
+	"ImagingFrequency": 127.763568,
 	"Manufacturer": "Philips",
 	"ManufacturersModelName": "Achieva dStream",
 	"InstitutionName": "Vanderbilt Health and williamson",
@@ -9,7 +9,7 @@
 	"InstitutionAddress": "1161 21st Ave South",
 	"DeviceSerialNumber": "17240",
 	"StationName": "mr3tb",
-	"BodyPartExamined": "BRAIN",
+	"BodyPart": "BRAIN",
 	"PatientPosition": "HFS",
 	"SoftwareVersions": "5.3.0\\5.3.0.3",
 	"MRAcquisitionType": "2D",
@@ -18,7 +18,8 @@
 	"ScanningSequence": "SE",
 	"SequenceVariant": "SK",
 	"ScanOptions": "PFP",
-	"ImageType": ["ORIGINAL", "PRIMARY", "M", "SE", "M", "SE"],
+	"PulseSequenceName": "DwiSE",
+	"ImageType": ["ORIGINAL", "PRIMARY", "M", "SE", "M", "SE", "MAGNITUDE"],
 	"SeriesNumber": 601,
 	"AcquisitionTime": "11:47:21.730000",
 	"AcquisitionNumber": 6,
@@ -29,6 +30,10 @@
 	"SliceThickness": 3,
 	"SpacingBetweenSlices": 3,
 	"SAR": 0.0572043,
+	"TablePosition": [
+		0,
+		0,
+		-0	],
 	"EchoTime": 0.060728,
 	"RepetitionTime": 4.57102,
 	"MTState": false,
@@ -40,6 +45,8 @@
 	"PartialFourierDirection": "PHASE",
 	"PartialFourierEnabled": "YES",
 	"PhaseEncodingStepsNoPartialFourier": 78,
+	"FrequencyEncodingSteps": 80,
+	"PhaseEncodingStepsOutOfPlane": 1,
 	"AcquisitionMatrixPE": 78,
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2.5,
@@ -57,6 +64,7 @@
 		0.984223,
 		0.176577	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
+	"BidsGuess": ["dwi","_acq-SKSEDwiSEp25_run-601_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }

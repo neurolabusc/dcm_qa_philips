@@ -1,23 +1,33 @@
 {
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
-	"ImagingFrequency": 127.77,
+	"ImagingFrequency": 127.769717,
 	"Manufacturer": "Philips",
 	"ManufacturersModelName": "Achieva",
 	"InstitutionName": "xxxx",
 	"InstitutionalDepartmentName": "xxxx",
 	"DeviceSerialNumber": "17240",
 	"StationName": "xxxx",
-	"BodyPartExamined": "BRAIN",
+	"BodyPart": "BRAIN",
 	"PatientPosition": "HFS",
 	"ProcedureStepDescription": "30393___",
 	"SoftwareVersions": "3.2.2\\3.2.2.0",
 	"MRAcquisitionType": "2D",
+	"StudyDescription": "xxxx",
 	"SeriesDescription": "dti",
 	"ProtocolName": "dti",
 	"ScanningSequence": "SE",
 	"SequenceVariant": "SK",
-	"ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE"],
+	"PulseSequenceName": "DwiSE",
+	"ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "MAGNITUDE"],
+	"DeidentificationMethodCodeSequence": [ 
+	  { 
+		"CodeValue": "1114123",
+		"CodingSchemeDesignator": "XNAT",
+		"CodingSchemeVersion": "0.1",
+		"CodeMeaning": "XNAT Edit Script"
+	  }
+	],
 	"SeriesNumber": 1101,
 	"AcquisitionNumber": 11,
 	"PhilipsRescaleSlope": 3.09524,
@@ -26,6 +36,10 @@
 	"UsePhilipsFloatNotDisplayScaling": 1,
 	"SliceThickness": 2.5,
 	"SpacingBetweenSlices": 2.499,
+	"TablePosition": [
+		0,
+		0,
+		-1.7e+38	],
 	"EchoTime": 0.052,
 	"RepetitionTime": 7.75,
 	"MTState": false,
@@ -37,6 +51,8 @@
 	"PartialFourierDirection": "PHASE",
 	"PartialFourierEnabled": "YES",
 	"PhaseEncodingStepsNoPartialFourier": 96,
+	"FrequencyEncodingSteps": 96,
+	"PhaseEncodingStepsOutOfPlane": 1,
 	"AcquisitionMatrixPE": 96,
 	"ReconMatrixPE": 96,
 	"ParallelReductionFactorInPlane": 2.2,
@@ -54,6 +70,7 @@
 		0.994565,
 		-0.104085	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
+	"BidsGuess": ["dwi","_acq-SKSEDwiSEp22_run-1101_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }
