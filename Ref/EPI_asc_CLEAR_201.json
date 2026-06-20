@@ -17,8 +17,9 @@
 	"ProtocolName": "EPI_asc CLEAR",
 	"ScanningSequence": "GR",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Gradient Echo",
 	"ScanOptions": "FS",
-	"PulseSequenceName": "FEEPI",
+	"SequenceName": "FEEPI",
 	"ImageType": ["ORIGINAL", "PRIMARY", "M", "FFE", "M", "FFE", "MAGNITUDE"],
 	"SeriesNumber": 201,
 	"AcquisitionTime": "09:06:29.350000",
@@ -37,6 +38,7 @@
 	"EchoTime": 0.030001,
 	"RepetitionTime": 2,
 	"MTState": false,
+	"SpoilingState": false,
 	"FlipAngle": 90,
 	"CoilString": "MULTI COIL",
 	"PercentPhaseFOV": 100,
@@ -47,7 +49,11 @@
 	"PhaseEncodingStepsOutOfPlane": 1,
 	"AcquisitionMatrixPE": 39,
 	"ReconMatrixPE": 64,
+	"ParallelReductionFactorInPlane": 1,
+	"ParallelReductionFactorOutOfPlane": 1,
 	"WaterFatShift": 11.0501,
+	"AcquisitionDuration": 14,
+	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 2111,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -60,5 +66,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-SKGRFEEPI_run-201_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

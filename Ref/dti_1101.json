@@ -18,7 +18,8 @@
 	"ProtocolName": "dti",
 	"ScanningSequence": "SE",
 	"SequenceVariant": "SK",
-	"PulseSequenceName": "DwiSE",
+	"PulseSequenceType": "Spin Echo",
+	"SequenceName": "DwiSE",
 	"ImageType": ["ORIGINAL", "PRIMARY", "DIFFUSION", "NONE", "MAGNITUDE"],
 	"DeidentificationMethodCodeSequence": [ 
 	  { 
@@ -43,6 +44,7 @@
 	"EchoTime": 0.052,
 	"RepetitionTime": 7.75,
 	"MTState": false,
+	"SpoilingState": false,
 	"FlipAngle": 90,
 	"CoilString": "Dual coil",
 	"PercentPhaseFOV": 100,
@@ -57,9 +59,12 @@
 	"ReconMatrixPE": 96,
 	"ParallelReductionFactorInPlane": 2.2,
 	"ParallelAcquisitionTechnique": "SENSE",
+	"ParallelReductionFactorOutOfPlane": 1,
 	"WaterFatShift": 13.0686,
 	"EstimatedEffectiveEchoSpacing": 0.000310067,
 	"EstimatedTotalReadoutTime": 0.0294563,
+	"AcquisitionDuration": 604.5,
+	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 3318.48,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -72,5 +77,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["dwi","_acq-SKSEDwiSEp22_run-1101_dwi"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
