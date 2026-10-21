@@ -54,7 +54,6 @@
 	"WaterFatShift": 11.654,
 	"EstimatedEffectiveEchoSpacing": 0.000206812,
 	"EstimatedTotalReadoutTime": 0.0262651,
-	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 2443.61,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [

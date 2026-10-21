@@ -64,7 +64,6 @@
 	"EstimatedEffectiveEchoSpacing": 0.000310067,
 	"EstimatedTotalReadoutTime": 0.0294563,
 	"AcquisitionDuration": 604.5,
-	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 3318.48,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
